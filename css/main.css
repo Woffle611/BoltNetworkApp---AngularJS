@@ -76,3 +76,11 @@ html, body {
   list-style:none;
   padding-left:0px;  
 }
+
+/* have to add below to stop sherlock's image covering whole screen.
+For some reason it goes beyond the 3-column restrain as specified in installApp.html
+*/
+
+img {
+    max-width: 100%;
+}
